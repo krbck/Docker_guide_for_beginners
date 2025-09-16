@@ -14,7 +14,7 @@ Docker ps komutu, çalışan containerların görüntülenmesini sağlar. -a arg
 
 ### **3-Docker run -d nginx komutu ne yapar**
 
-Bu komutu çalıştırdığımızda Docker localde nginx image arar ve nginx container'i oluşturur. nginx image'ı localde mevcut değilse docker hub üzerinden belirtilen image'ı indirmeye çalışır. -d argumenti ise containeri terminalden detach ederek arkaplanda containeri çalıştırır![img1.png](:/a285ed5e1aba4f148179596c447c94fc)Cihazda nginx image'ı bulunmadığından library/nginx bölümünden nginx image'ini cihaza indirip ondan sonra containeri arkaplanda çalıştırdık.
+Bu komutu çalıştırdığımızda Docker localde nginx image arar ve nginx container'i oluşturur. nginx image'ı localde mevcut değilse docker hub üzerinden belirtilen image'ı indirmeye çalışır. -d argumenti ise containeri terminalden detach ederek arkaplanda containeri çalıştırır![img2.png](:/a285ed5e1aba4f148179596c447c94fc)Cihazda nginx image'ı bulunmadığından library/nginx bölümünden nginx image'ini cihaza indirip ondan sonra containeri arkaplanda çalıştırdık.
 
 * * *
 
