@@ -8,13 +8,13 @@ Docker Container, bir servisin veya yazılımın herhangi bir ortam üzerinde ç
 
 Docker ps komutu, çalışan containerların görüntülenmesini sağlar. -a argumenti ekleyerek de oluşturulmuş olan tüm containerları gösterir.
 
-![Ekran görüntüsü 2025-09-16 142028.png](:/1f77d653613f4e9ab08a98984d562164)Örnekteki cihazda 2 adet container çalıştığını görebiliyoruz. -a argumentini eklediğimizde çalışan containerlar ile beraber çalışmayan containerları da görüntüleyebiliyoruz.
+![img1.png](:/1f77d653613f4e9ab08a98984d562164)Örnekteki cihazda 2 adet container çalıştığını görebiliyoruz. -a argumentini eklediğimizde çalışan containerlar ile beraber çalışmayan containerları da görüntüleyebiliyoruz.
 
 * * *
 
 ### **3-Docker run -d nginx komutu ne yapar**
 
-Bu komutu çalıştırdığımızda Docker localde nginx image arar ve nginx container'i oluşturur. nginx image'ı localde mevcut değilse docker hub üzerinden belirtilen image'ı indirmeye çalışır. -d argumenti ise containeri terminalden detach ederek arkaplanda containeri çalıştırır![Ekran görüntüsü 2025-09-16 142933.png](:/a285ed5e1aba4f148179596c447c94fc)Cihazda nginx image'ı bulunmadığından library/nginx bölümünden nginx image'ini cihaza indirip ondan sonra containeri arkaplanda çalıştırdık.
+Bu komutu çalıştırdığımızda Docker localde nginx image arar ve nginx container'i oluşturur. nginx image'ı localde mevcut değilse docker hub üzerinden belirtilen image'ı indirmeye çalışır. -d argumenti ise containeri terminalden detach ederek arkaplanda containeri çalıştırır![img1.png](:/a285ed5e1aba4f148179596c447c94fc)Cihazda nginx image'ı bulunmadığından library/nginx bölümünden nginx image'ini cihaza indirip ondan sonra containeri arkaplanda çalıştırdık.
 
 * * *
 
