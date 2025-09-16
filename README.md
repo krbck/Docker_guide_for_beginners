@@ -8,13 +8,13 @@ Docker Container, bir servisin veya yazılımın herhangi bir ortam üzerinde ç
 
 Docker ps komutu, çalışan containerların görüntülenmesini sağlar. -a argumenti ekleyerek de oluşturulmuş olan tüm containerları gösterir.
 
-![img1.png](:/1f77d653613f4e9ab08a98984d562164)Örnekteki cihazda 2 adet container çalıştığını görebiliyoruz. -a argumentini eklediğimizde çalışan containerlar ile beraber çalışmayan containerları da görüntüleyebiliyoruz.
+![img1.png](/img1.png)Örnekteki cihazda 2 adet container çalıştığını görebiliyoruz. -a argumentini eklediğimizde çalışan containerlar ile beraber çalışmayan containerları da görüntüleyebiliyoruz.
 
 * * *
 
 ### **3-Docker run -d nginx komutu ne yapar**
 
-Bu komutu çalıştırdığımızda Docker localde nginx image arar ve nginx container'i oluşturur. nginx image'ı localde mevcut değilse docker hub üzerinden belirtilen image'ı indirmeye çalışır. -d argumenti ise containeri terminalden detach ederek arkaplanda containeri çalıştırır![img2.png](:/a285ed5e1aba4f148179596c447c94fc)Cihazda nginx image'ı bulunmadığından library/nginx bölümünden nginx image'ini cihaza indirip ondan sonra containeri arkaplanda çalıştırdık.
+Bu komutu çalıştırdığımızda Docker localde nginx image arar ve nginx container'i oluşturur. nginx image'ı localde mevcut değilse docker hub üzerinden belirtilen image'ı indirmeye çalışır. -d argumenti ise containeri terminalden detach ederek arkaplanda containeri çalıştırır![img2.png](:/img2.png)Cihazda nginx image'ı bulunmadığından library/nginx bölümünden nginx image'ini cihaza indirip ondan sonra containeri arkaplanda çalıştırdık.
 
 * * *
 
@@ -152,7 +152,7 @@ Container loglarını görüntülemek için `docker container logs CONTAINER_NAM
 
 Lightweight imagelerin sadece uygulamayı çalıştırmak için gerekli olan dosyaları içermesi sisteme daha az yük bindirmeleri ve dosya boyutu küçüklüğü açısından avantaj sağlamaktadır.
 
-![img3.png](:/a5ea225cc0f54df6bf2e0a4791b32ec3)
+![img3.png](/img3.png)
 
 Örnekte görüldüğü gibi nginx in debian sürümü 192MB disk alanı kaplarken aynı uygulamanın alpine sürümü 52.5 MB yer kaplamaktadır. Lightweight image kullanarak büyük oranda disk boyutunda avantaj sağlanabilmektedir.
 
